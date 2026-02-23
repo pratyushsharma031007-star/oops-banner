@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class OOPSBannerAppUC7 {
+public class OOPSBannerApp {
 
     static class CharacterPattern {
         private char character;
@@ -9,10 +9,6 @@ public class OOPSBannerAppUC7 {
         public CharacterPattern(char character, String[] pattern) {
             this.character = character;
             this.pattern = pattern;
-        }
-
-        public char getCharacter() {
-            return character;
         }
 
         public String[] getPattern() {
@@ -42,6 +38,16 @@ public class OOPSBannerAppUC7 {
                     "*      ",
                     "*      ",
                     "*      "
+            }));
+
+            map.put('S', new CharacterPattern('S', new String[]{
+                    " ***** ",
+                    "*      ",
+                    "*      ",
+                    " ***** ",
+                    "      *",
+                    "      *",
+                    " ***** "
             }));
         }
 
